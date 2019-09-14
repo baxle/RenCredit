@@ -33,10 +33,10 @@ public class BaseSteps {
         driver.get(baseUrl);
     }
 
-    @After
+/*    @After
     public static void tearDown() throws Exception {
         driver.quit();
-    }
+    }*/
 
     @Attachment(type = "image/png", value = "Screenshot")
     public static byte[] takeScreenshot() {
